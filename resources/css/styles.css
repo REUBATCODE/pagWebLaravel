@@ -1,0 +1,129 @@
+/* Estilo para la imagen */
+.img-redimensionada {
+    width: 400px;
+    height: auto;
+    margin: 24px;
+}
+/* Estilo para los h3 */
+.texto_simple{
+    margin: 24px;
+    text-align: center;
+}
+/* Estilo para los card */
+.card{
+    border-style: none;
+    background-image: linear-gradient(to left, #eddce9, #e01c64);
+    color: #E2D0D7;
+}
+.imgCardCuadrada{
+    width: 300px;
+    height: auto;
+    opacity: 70%;
+}
+.imgVertical{
+    width: 250px;
+    height: auto;
+    border-radius: 50px;
+}
+/* Estilo para segundoBloque */
+.segundoBloque{
+    margin: 24px;
+}
+/* Estilo para leyendasNunca */
+.leyendasNunca{
+    margin:24px;
+}
+.txtResaltado{
+    color: #bf2257;
+}
+/* Estilo para imgPerfil */
+.imgPerfil{
+    width: 200px;
+    height: 200px;
+}
+/* Estilo para body */
+body{
+    background-image: linear-gradient(to bottom, #ffffff, #f8e9ef);
+}
+.imgRedonda{
+    border-radius: 50%;
+}
+.txtTitulo{
+    font-family: 'Kanit', sans-serif;
+}
+/* Estilo para hero */
+.hero{
+    background-image: linear-gradient(to right, #bf2257, #5c273b);
+    color:#E2D0D7;
+}
+.hero h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #c87392;
+    text-align: center;
+}
+.btnHero{
+    text-align: center;
+    background-color: #C7829B;
+}
+.resaltado1{
+    font-size: 72px;
+    color: bisque;
+}
+.primeraLinea{
+    background: linear-gradient(to right, #bf2257, #31111e);
+    border-radius: 70px;
+}
+.imgHero{
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+/* Estilo para la CTA */
+.callToAction{
+    background: linear-gradient(to right, #c93b6a, #be356c);
+}
+.btnBasico{
+    background-color: #31111e;
+    border-radius: 50px;
+    color: #E2D0D7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para footer */
+footer{
+    background-image: linear-gradient(to right, #bf2257, #5c273b);
+    color: #E2D0D7;
+}
+footer p, h4{
+    margin: 12px;
+}
+.unstyled-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* Estilo para los íconos de redes sociales */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333; /* Color de los íconos */
+}
+.marginBot{
+    margin-bottom: 16px;
+}
+
+.navbarEpico{
+    background-image: linear-gradient(to right, #bf2257, #5c273b);
+}
