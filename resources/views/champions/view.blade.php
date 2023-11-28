@@ -1,6 +1,6 @@
 @extends('layouts.site')
 @section('title', 'Champions')
-@section('tabla')
+@section('content')
 <h1>View Champion</h1>
 
 <table class="table table-bordered table-dark">
@@ -10,13 +10,15 @@
         <th>Secondary Role</th>
     </thead>
     <tbody>
-        @foreach($champion as $c)
-            <tr class="champion-row" data-url="{{ isset($c) ? route('champions.view', ['id' => $c->id]) : '#' }}">
-                <td>{{$c->name}}</td>
-                <td>{{$c->main_type}}</td>
-                <td>{{$c->secondary_type}}</td>
-            </tr>
-        @endforeach
+    {{$champion}}
+        @if(isset($champion))
+    <tr class="champion-row" data-url="{{ isset($champion) ? route('champions.view', ['id' => $champion->id]) : '#' }}">
+        <td>{{$champion->name}}</td>
+        <td>{{$champion->main_type}}</td>
+        <td>{{$champion->secondary_type}}</td>
+    </tr>
+@endif
+
     </tbody>
 </table>
 

@@ -13,9 +13,8 @@ class ChampionController extends Controller
         return view('champions.index', compact('champions'));
     }
     public function view($id){
-        $champion = Champion::findOrFail($id);
-        dump($champion);
-        return view('champions.view', $champion);
+        $champion = Champion::find($id);
+        return view('champions.view', compact('champion'));
 
     }
     public function create(){
