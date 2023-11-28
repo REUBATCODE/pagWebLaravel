@@ -2,12 +2,9 @@
 
 @section('title', 'Champions')
 
-@section('tabla')
+@section('content')
 
 <h1>View Champion</h1>
-
-
-
 <table class="table table-bordered table-dark">
     <thead>
         <th>Champion</th>
@@ -28,8 +25,4 @@
         @endforeach
     </tbody>
 </table>
-
-
-
-
 @endsection
